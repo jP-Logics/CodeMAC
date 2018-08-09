@@ -1,0 +1,39 @@
+# Configuration document of Golang CodeTeller
+
+version = "0.1"
+
+[language]
+lang="Go"
+version="1.10.3"
+type="compiled" #The other type is interpriter
+
+[keywords]
+break = "break the execution"
+default = "default case"     
+func =   "function"  
+interface = "interface type"   
+select = "select statement"
+case = "case when"        
+defer = "defers"       
+go = "go routine"
+map = "map of"            
+struct ="struct type"
+chan  = "channel of "      
+else = "if not the condition of"
+goto = "jumps to the label "
+package =  "package named"    
+switch = "switch condition of"
+const  =  "constant of "    
+fallthrough = "fallthrough to"
+if = "if the condition is "
+range = "range of "       
+type = " type of"
+continue =  "continue upon"   
+for = "for loop"
+import =  "importing package of"  
+return ="returns "
+var = "variable of "
+
+[operators]
+
+
