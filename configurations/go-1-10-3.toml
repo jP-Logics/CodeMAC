@@ -16,24 +16,35 @@ select = "select statement"
 case = "case when"        
 defer = "defers"       
 go = "go routine"
-map = "map of"            
+map = "map "            
 struct ="struct type"
-chan  = "channel of "      
-else = "if not the condition of"
+chan  = "channel "      
+else = "if not the condition"
 goto = "jumps to the label "
 package =  "package named"    
-switch = "switch condition of"
+switch = "switch condition"
 const  =  "constant of "    
 fallthrough = "fallthrough to"
 if = "if the condition is "
-range = "range of "       
+range = "range  "       
 type = " type of"
 continue =  "continue upon"   
 for = "for loop"
-import =  "importing package of"  
+import =  "importing package "  
 return ="returns "
-var = "variable of "
+var = "variable named  "
 
 [operators]
+
+[punctuations]
+
+[literals]
+
+[symbols]
+
+[tokens]
+
+
+[miscs]
 
 

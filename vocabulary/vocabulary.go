@@ -1,14 +1,6 @@
 package vocabulary
 
-// Vocabular is an interface
-type Vocabular interface {
-	GetKeywords(file string) (map[string]interface{}, error)
-	GetOeprators(file string) (map[string]interface{}, error)
-	GetPunctuations(file string) (map[string]interface{}, error)
-	GetLiterals(file string) (map[string]interface{}, error)
-	GetSymbols(file string) (map[string]interface{}, error)
-	GetMisc(file string) (map[string]interface{}, error)
-}
+import "CodeTeller/grammer"
 
 // Vocabulary is a type
 type Vocabulary struct {
@@ -16,31 +8,31 @@ type Vocabulary struct {
 }
 
 // New retuns new Vocabulary
-func New(filename string, vocabular Vocabular) (*Vocabulary, error) {
+func New(filename string, grammer grammer.Grammer) (*Vocabulary, error) {
 	var err error
 	v := &Vocabulary{}
 	v.Elements = make(map[string]map[string]interface{})
-	v.Elements["keywords"], err = vocabular.GetKeywords(filename)
+	v.Elements["keywords"], err = grammer.GetKeywords(filename)
 	if err != nil {
 		return nil, err
 	}
-	v.Elements["operators"], err = vocabular.GetOeprators(filename)
+	v.Elements["operators"], err = grammer.GetOeprators(filename)
 	if err != nil {
 		return nil, err
 	}
-	v.Elements["punctuations"], err = vocabular.GetPunctuations(filename)
+	v.Elements["punctuations"], err = grammer.GetPunctuations(filename)
 	if err != nil {
 		return nil, err
 	}
-	v.Elements["literals"], err = vocabular.GetLiterals(filename)
+	v.Elements["literals"], err = grammer.GetLiterals(filename)
 	if err != nil {
 		return nil, err
 	}
-	v.Elements["symbols"], err = vocabular.GetSymbols(filename)
+	v.Elements["symbols"], err = grammer.GetSymbols(filename)
 	if err != nil {
 		return nil, err
 	}
-	v.Elements["misc"], err = vocabular.GetMisc(filename)
+	v.Elements["misc"], err = grammer.GetMisc(filename)
 	if err != nil {
 		return nil, err
 	}
