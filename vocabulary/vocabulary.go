@@ -1,6 +1,6 @@
 package vocabulary
 
-import "CodeMAT/grammer"
+import "CodeMAC/grammer"
 
 // Vocabulary is a type
 type Vocabulary struct {

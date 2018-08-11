@@ -1,4 +1,4 @@
-# CodeMAT
+# CodeMAC
 
 ## About the project
 
@@ -12,21 +12,21 @@ I worked on many programming languages, and had to review other programming lang
 
 Hopefully this tool can eliminates that gap, since code will be converted into simple language.
 
-## What does CodeMat tool does?
+## What does CodeMAC tool does?
 
-CodeMAT does three things( as initial plan).
+CodeMAC does three things( as initial plan).
 
 1.Metrics  : Measure the code
 2.Analyzer : Analyze the code based on the metrics.
-3.Teller   : Teller converts the code into simple understandable language.
+3.Converter: Converter converts the code into simple understandable language.
 
 ## How does it work ?
 
-CodeMat tool, parses through the code and identify which language/scripting the code has been written.It looks for specific language add-on /rule engine and start writing the code in .MD [MarkDown] file.
+CodeMAC tool, parses through the code and identify which language/scripting the code has been written.It looks for specific language add-on /rule engine and start writing the code in .MD [MarkDown] file.
 
 ## Which languages/scripting does it support ?
 
-The initial version, we are planing for Go(GoLang) source codes.We will have to see other languages/scripting at a later stage based upon contributions.
+The initial version, we are planing for Go(GoLang) source codes.We will have to work on other languages/scripting at a later stage based upon contributions.
 
 ## Are there any specifications/standards that it follows ?
 
