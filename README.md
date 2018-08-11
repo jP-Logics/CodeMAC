@@ -1,18 +1,28 @@
-# CodeTeller
+# CodeMAT
 
 ## About the project
 
-I have been in the software industry for 10+ years.The most complicated thing I have ever encountered is understanding the business logic from the code written by a third person.To walk through the code undeerstand it is again time consuming task.
+The philosophy behind this tool is know about the code.
+
+I have been in the software industry for 10+ years.The most complicated thing I have ever encountered is understanding the business logic from the code written by a third person.To walk through the code understand it is again time consuming task.
 
 We have been reading the code and trying to understand it.But why can't there be a tool/helper that converts the code into plain/simple language and explain about the semantics of the code. Personally I thought of having such a companion many times.
 
-I worked on many programming languages, and had to review other programming language codes.The problem I always face was understanding or have a deep look at the symantics of X programming language when I am expert in some Z language. 
+I worked on many programming languages, and had to review other programming language codes.The problem I always face was understanding or have a deep look at the semantics of X programming language when I am expert in some Z language. 
 
-Hopefully this tool can eleminates that gap, since code will be converted into simple language.
+Hopefully this tool can eliminates that gap, since code will be converted into simple language.
+
+## What does CodeMat tool does?
+
+CodeMAT does three things( as initial plan).
+
+1.Metrics  : Measure the code
+2.Analyzer : Analyze the code based on the metrics.
+3.Teller   : Teller converts the code into simple understandable language.
 
 ## How does it work ?
 
-CodeTeller tool, parses through the code and identify which language/scripting the code has been written.It looks for specific language add-on /rule engine and start writing the code in .MD [MarkDown] file.
+CodeMat tool, parses through the code and identify which language/scripting the code has been written.It looks for specific language add-on /rule engine and start writing the code in .MD [MarkDown] file.
 
 ## Which languages/scripting does it support ?
 
