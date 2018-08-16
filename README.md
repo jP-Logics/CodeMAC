@@ -16,8 +16,8 @@ Hopefully this tool can eliminates that gap, since code will be converted into s
 
 CodeMAC does three things( as initial plan).
 
-1.Metrics  : Measure the code
-2.Analyzer : Analyze the code based on the metrics.
+1.Metrics  : Measures the code
+2.Analyzer : Analyzes the code based on the metrics.
 3.Converter: Converter converts the code into simple understandable language.
 
 ## How does it work ?
@@ -37,6 +37,42 @@ At this point of time no.But probably in future.
 Yes, this is an open source project, will be published on GitHub.Com as a public repository with MIT license(May be changed to Apache later).
 
 ## Example of intended output
+
+For a given source code file
+
+#### 1.Metrics
+
+```
+Source code language:Go
+File Name: sample.go
+File Size: 2,722 bytes
+
+Total Lines : 83
+
+Total Functions: 12
+
+Total Procedures: 
+
+Total Methods: 6
+
+Total Global Variables: 11
+
+Total Local Variabls: 6
+
+Total References: 3
+
+Total Loops : 5
+
+Total Conditions : 23
+```
+#### 2.Analyzer
+
+```
+func Wrapper : 3 nested loops are written.
+
+func Wrapper : 12 conditions are written.
+```
+#### 3.Convertor
 
 ```
 func WrapClient(w ...client.Wrapper) Option {
