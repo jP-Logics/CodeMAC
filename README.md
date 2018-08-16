@@ -4,17 +4,13 @@
 
 The philosophy behind this tool is know about the code.
 
-I have been in the software industry for 10+ years.The most complicated thing I have ever encountered is understanding the business logic from the code written by a third person.To walk through the code understand it is again time consuming task.
+As a developer, we have been reading the code and trying to understand it.But why can't there be a tool/helper that converts the code into plain/simple language and explain about the semantics of the code. Personally I thought of having such a handy companion many times.
 
-We have been reading the code and trying to understand it.But why can't there be a tool/helper that converts the code into plain/simple language and explain about the semantics of the code. Personally I thought of having such a companion many times.
-
-I worked on many programming languages, and had to review other programming language codes.The problem I always face was understanding or have a deep look at the semantics of X programming language when I am expert in some Z language. 
-
-Hopefully this tool can eliminates that gap, since code will be converted into simple language.
+The idea of CodeMAC is Measure , Analyze and Convert the code and so named this tool as CodeMAC .
 
 ## What does CodeMAC tool does?
 
-CodeMAC does three things( as initial plan).
+CodeMAC does three things(as an initial plan).
 
 1.Metrics  : Measures the code
 2.Analyzer : Analyzes the code based on the metrics.
