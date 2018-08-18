@@ -7,10 +7,10 @@ import (
 	"io/ioutil"
 )
 
-// Configuration is used to maintain configuration
+// Configuration is used to maintain configuration information as keyvalue pair in a customized map.
 type Configuration map[string]interface{}
 
-// New loads information from the file
+// New loads config file into Configuration object
 func New(fn string) (Configuration, error) {
 	bArr, err := ioutil.ReadFile(fn)
 	if err != nil {

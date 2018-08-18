@@ -1,109 +1,145 @@
 {
     "language": "go",
     "version": "go1.10.3",
-    "keywords": {
-        "var": {
-            "desc": "variable declaration",
-            "type": "declaration"
-        },
-        "const": {
-            "desc": "constant declaration",
-            "type": "declaration"
-        },
-        "import": {
-            "desc": "import package",
-            "type": "declaration"
-        },
-        "package": {
-            "desc": "package declaration",
-            "type": "declaration"
-        },
-        "if": {
-            "desc": "if condition",
-            "type": "condition"
-        },
-        "else": {
-            "desc": "else part",
-            "type": "condition"
-        },
-        "switch": {
-            "desc": "switch condition",
-            "type": "condition"
-        },
-        "case": {
-            "desc": "switch case",
-            "type": "condition"
-        },
-        "default": {
-            "desc": "switch default",
-            "type": "condition"
-        },
-        "goto": {
-            "desc": "jump to statement",
-            "type": "loop"
-        },
-        "for": {
-            "desc": "for loop",
-            "type": "loop"
-        },
-        "range": {
-            "desc": "range loop",
-            "type": "loop"
-        },
-        "break": {
-            "desc": "loop break",
-            "type": "statement"
-        },
-        "continue": {
-            "desc": "loop continue",
-            "type": "statement"
-        },
-        "fallthrough": {
-            "desc": "loop fallthrough",
-            "type": "statement"
-        },
-        
-        "type": {
-            "desc": "type declaration",
-            "type": "declaration"
-        },
-        "func": {
-            "desc": "func declaration",
-            "type": "type"
-        },
-        "return": {
-            "desc": "func returns",
-            "type": "statement"
-        },
-        "defer": {
-            "desc": "variable declaration",
-            "type": "statement"
-        },
-        "struct": {
-            "desc": "struct type",
-            "type": "type"
-        },
-        "interface": {
-            "desc": "interface type",
-            "type": "type"
-        },
-        
-        "go": {
-            "desc": "go routine",
-            "type": "statement"
-        },
-        "map": {
-            "desc": "map declaration",
-            "type": "declaration"
-        },
-        "chan": {
-            "desc": "chan declaration",
-            "type": "declaration"
-        },
-        "select": {
-            "desc": "variable declaration",
-            "type": "statement"
-        }
- 
+    "var": {
+        "type": "keyword",
+        "subtype": "declaration",
+        "desc": "variable declaration",
+        "counter": true
+    },
+    "const": {
+        "type": "keyword",
+        "desc": "constant declaration",
+        "subtype": "declaration",
+        "counter": true
+    },
+    "import": {
+        "type": "keyword",
+        "desc": "import package",
+        "subtype": "declaration",
+        "counter": true
+    },
+    "package": {
+        "type": "keyword",
+        "desc": "package declaration",
+        "subtype": "declaration"
+    },
+    "if": {
+        "type": "keyword",
+        "desc": "if condition",
+        "subtype": "condition",
+        "counter": true
+    },
+    "else": {
+        "type": "keyword",
+        "desc": "else part",
+        "subtype": "condition",
+        "counter": false
+    },
+    "switch": {
+        "type": "keyword",
+        "desc": "switch condition",
+        "subtype": "condition",
+        "counter": true
+    },
+    "case": {
+        "type": "keyword",
+        "desc": "switch case",
+        "subtype": "condition"
+    },
+    "default": {
+        "type": "keyword",
+        "desc": "switch default",
+        "subtype": "condition"
+    },
+    "goto": {
+        "type": "keyword",
+        "desc": "jump to statement",
+        "subtype": "loop"
+    },
+    "for": {
+        "type": "keyword",
+        "desc": "for loop",
+        "subtype": "loop",
+        "counter": true
+    },
+    "range": {
+        "type": "keyword",
+        "desc": "range loop",
+        "subtype": "loop",
+        "counter": true
+    },
+    "break": {
+        "type": "keyword",
+        "desc": "loop break",
+        "subtype": "statement"
+    },
+    "continue": {
+        "type": "keyword",
+        "desc": "loop continue",
+        "subtype": "statement"
+    },
+    "fallthrough": {
+        "type": "keyword",
+        "desc": "loop fallthrough",
+        "subtype": "statement"
+    },
+    "type": {
+        "type": "keyword",
+        "desc": "subtype declaration",
+        "subtype": "declaration",
+        "counter": false
+    },
+    "func": {
+        "type": "keyword",
+        "desc": "func declaration",
+        "subtype": "declaration",
+        "counter": true
+    },
+    "return": {
+        "type": "keyword",
+        "desc": "func returns",
+        "subtype": "statement"
+    },
+    "defer": {
+        "type": "keyword",
+        "desc": "variable declaration",
+        "subtype": "statement"
+    },
+    "struct": {
+        "type": "keyword",
+        "desc": "struct subtype",
+        "subtype": "subtype",
+        "counter": true
+    },
+    "interface": {
+        "type": "keyword",
+        "desc": "interface subtype",
+        "subtype": "subtype",
+        "counter": true
+    },
+    "go": {
+        "type": "keyword",
+        "desc": "go routine",
+        "subtype": "statement",
+        "counter": true
+    },
+    "map": {
+        "type": "keyword",
+        "desc": "map declaration",
+        "subtype": "declaration",
+        "counter": true
+    },
+    "chan": {
+        "type": "keyword",
+        "desc": "chan declaration",
+        "subtype": "declaration",
+        "counter": true
+    },
+    "select": {
+        "type": "keyword",
+        "desc": "variable declaration",
+        "subtype": "statement",
+        "counter": true
     }
 }

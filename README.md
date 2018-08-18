@@ -4,7 +4,7 @@
 
 The philosophy behind this tool is know about the code.
 
-As a developer, we have been reading the code and trying to understand it.But why can't there be a tool/helper that converts the code into plain/simple language and explain about the semantics of the code. Personally I thought of having such a handy companion many times.
+As a developer, we have been reading the code and trying to understand it.But why can't there be a tool/helper that understands the code and converts the code into plain/simple language and explain about the semantics of the code. Personally I thought of having such a handy companion many times.
 
 The idea of CodeMAC is Measure , Analyze and Convert the code and so named this tool as CodeMAC .
 

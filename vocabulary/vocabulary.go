@@ -36,6 +36,7 @@ func New(filename string, grammer grammer.Grammer) (*Vocabulary, error) {
 	if err != nil {
 		return nil, err
 	}
-
 	return v, nil
 }
+
+// Read the code from the first sentense..
